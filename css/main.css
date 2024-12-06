@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* Start of Header section*/
+
+.header-top {
+    height: 47px;
+    background-color: #B36050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top p {
+    color: #F1D3B9;
+    font-family: Roboto;
+}
+
+nav {
+    width: 100%;
+    height: 71px;
+    background-color: #efebda;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-left {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-right {
+    width: 500px;
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-item {
+    list-style: none;
+    font-family: Roboto;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item a {
+    color: #B4604D;
+    text-decoration:none;
+    transition: all .7s;
+}
+
+.menu-item a:hover {
+    color: #0091ff;
+}
+
+
+.menu-item p {
+    color: #B4604D;
+}
+
+/* End of Header section*/
+
+.main-img__box{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Start of Main section styling*/
+.main-img {
+    width: 100%;
+    height: 435px;
+    object-fit: cover;
+  
+}
+.shop-now__box {
+    width: 100%;
+    height: 304px;
+    background-color: #A9AE8D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.shop-now__box p {
+    font-size: 18px;
+    font-family: Roboto;
+    color: #F6F4EC;
+}
+
+.shop-now__box h2 {
+    font-family: Roboto;
+    color: #F6F4EC;
+    font-size: 33px;
+    font-weight: 400;
+}
+
+button {
+    width: 128px;
+    height: 48px;
+    background-color: #B4604D;
+    border: none;
+    font-family: Roboto;
+    font-size: 17px;
+    color: #F6F4EC;
+    transition: all .7s;
+}
+
+button:hover {
+    background-color: #0091ff;
+    cursor: pointer;
+}
+
+/* End of Main section styling*/
+
+
+/* Starting of About-product section */
+.about-products {
+    background-color: #efebda;
+    padding-top: 50px;
+}
+
+.about-title {
+    color: #B4604D;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.about-items {
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item {
+    width: 340px;
+    height: 650px;
+}
+
+.about-item img {
+    width: 340px;
+    height: 510px;
+}
+
+.about-item p {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #B4604D;
+    padding: 15px 0;
+    text-transform: uppercase;
+}
+
+.about-sliders {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-sliders i {
+    font-size: 30px;
+    color: #B4604D;
+    transition: all .7s;
+}
+
+.about-sliders i:hover {
+    color: #0091ff;
+    cursor: pointer;
+}
+
+.horizantal-image__about {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    object-fit: cover;
+}
+/* End of About-product section */
+
+
+/* Start of Meet-dae section */
+
+.meet-dae__section {
+    height: 900px;
+    background-color: #F1D3B9;
+}
+
+.meet-dae__section-content {
+    display: flex;
+    height: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+.meet-dae__img {
+    width: 450px;
+    height: 700px;
+}
+.meet-dae__text-box {
+    width: 450px;
+    height: 700px;
+    background-color: #efebda;
+}
+
+.meet-dae__text-box h2 {
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color: #B4604D;
+}
+
+.meet-dae__text-box p {
+    padding: 10px 20px 20px 30px;
+    font-family: Roboto;
+    font-size: 19px;
+    color: #B4604D;
+    transition: all .7s;
+}
+
+.meet-dae__read-more:hover {
+    color: #0091ff;
+    cursor: pointer;
+}
+/* End of Meet-dae section */
+
+
+/* Start of Footer section */
+.footer-title {
+    font-family: Roboto;
+    font-weight: 400;
+    text-align: center ;
+    padding-top: 40px;
+    font-size: 23px;
+}
+
+.footer-title a {
+    text-decoration: none;
+    color: black;
+}
+.footer-items {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-items img {
+    width: 190px;
+    height: 129px;
+    object-fit: cover;
+}
+
+.footer-bottom {
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    width: 500px;
+    height: 150px;
+}
+
+td {
+    color: #B4604D;
+    font-family: Roboto;
+    font-size: 14px;
+    transition: all .7s ease;
+}
+
+td:hover {
+    color: #0091ff;
+    cursor: pointer;
+}
+
+.footer-left__box {
+    width: 500px;
+    height: 150px;
+}
+
+.footer-left__box p {
+    color: #B4604D;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 10px;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    height: 1.5px;
+    background-color: #F1D3B9;
+}
+
+.footer-bottom-bottom {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-bottom-bottom p {
+    color: #B4604D;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscribe-box {
+    width: 460px;
+    height: 40px;
+    border: 3px solid #B4604D;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.subscribe-box a {
+    margin-right: 20px;
+    font-family: Roboto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #B4604D;
+    font-size: 13px;
+    transition: all .7s ease;
+}
+
+.subscribe-box a:hover {
+    color: #0091ff;
+}
+/* End of Footer section */
